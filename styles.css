@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  background-color: #f2d8cd; /* Light beige */
+  color: #32356c; /* Dark blue */
+  font-family: "Press Start 2P", cursive;
+}
+
+h1 {
+  color: #b9101c; /* Red */
+}
+
+.card {
+  border: 1px solid #d0a148; /* Gold */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.life-card {
+  background-color: #c7ffd8; /* Dark red */
+  color: #185519; /* Gold */
+}
+
+.death-card {
+  background-color: #b9101c; /* Red */
+  color: #f2d8cd; /* Light beige */
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.user {
+  background-color: #32356c; /* Dark blue */
+  color: #f2d8cd; /* Light beige */
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+}
+
+.card-holder {
+  margin-top: 10px;
+}
+
+#game-screen {
+  background-color: #f2d8cd; /* Light beige */
+  padding: 20px;
+}
+
+#user-selection {
+  background-color: #d0a148; /* Gold */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #b9101c; /* Red */
+  color: #f2d8cd; /* Light beige */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Press Start 2P", cursive;
+}
+
+button:disabled {
+  background-color: #a9a9a9; /* Gray */
+}
+
+button:hover {
+  background-color: #a00000; /* Darker red */
+}

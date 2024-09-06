@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Sorting with 8 Users (including Entrance)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Who are you gonna save?</h1>
+  
+  <div class="user-container">
+    <!-- User blocks -->
+    <div class="user" id="user1">
+      <h2>User 1</h2>
+      <div class="card-holder" id="user1-cards"></div>
+    </div>
+
+    <div class="user" id="user2">
+      <h2>User 2</h2>
+      <div class="card-holder" id="user2-cards"></div>
+    </div>
+
+    <div class="user" id="user3">
+      <h2>User 3</h2>
+      <div class="card-holder" id="user3-cards"></div>
+    </div>
+
+    <div class="user" id="user4">
+      <h2>User 4</h2>
+      <div class="card-holder" id="user4-cards"></div>
+    </div>
+
+    <div class="user" id="user5">
+      <h2>User 5</h2>
+      <div class="card-holder" id="user5-cards"></div>
+    </div>
+
+    <div class="user" id="user6">
+      <h2>User 6</h2>
+      <div class="card-holder" id="user6-cards"></div>
+    </div>
+
+    <div class="user" id="user7">
+      <h2>User 7</h2>
+      <div class="card-holder" id="user7-cards"></div>
+    </div>
+
+    <div class="user" id="entrance">
+      <h2>Entrance (Can Only Receive)</h2>
+      <div class="card-holder" id="entrance-cards"></div>
+    </div>
+  </div>
+  
+  <div>
+    <label for="selectSender">Select a sender:</label>
+    <select id="selectSender">
+      <option value="user1">User 1</option>
+      <option value="user2">User 2</option>
+      <option value="user3">User 3</option>
+      <option value="user4">User 4</option>
+      <option value="user5">User 5</option>
+      <option value="user6">User 6</option>
+      <option value="user7">User 7</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="selectCard">Select a card to give:</label>
+    <select id="selectCard">
+      <!-- Cards will be dynamically populated here -->
+    </select>
+  </div>
+
+  <div>
+    <label for="selectReceiver">Select a receiver:</label>
+    <select id="selectReceiver">
+      <option value="user1">User 1</option>
+      <option value="user2">User 2</option>
+      <option value="user3">User 3</option>
+      <option value="user4">User 4</option>
+      <option value="user5">User 5</option>
+      <option value="user6">User 6</option>
+      <option value="user7">User 7</option>
+      <option value="entrance">Entrance</option> <!-- New User Added -->
+    </select>
+  </div>
+  
+  <button id="giveCardButton">Give Card</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
